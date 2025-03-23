@@ -1,3 +1,6 @@
+
+# This code snippets are only related to print function and avaiables
+
 # Basic Hello World Print
 print('Hello Worlds')
 
@@ -20,3 +23,24 @@ print(a+b)
 print(c)
 print(c+d)
 print(str(a)+c)
+
+
+# Print Local vs Global variables
+
+x = "First Value"
+print(x)
+
+def printTheValue():
+ print(x)
+
+printTheValue()
+
+
+def printTheValues():
+ global x
+ x='Second Global Value' #This ovverrides the previous value of X from 'Local variable' to 'Global Variable'
+ print(x)
+
+printTheValues()
+print(x)
+
