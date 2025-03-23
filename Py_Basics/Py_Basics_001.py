@@ -1,5 +1,5 @@
 
-# This code snippets are only related to print function and avaiables
+# This code snippets are only related to print function, variables and escape sequence
 
 # Basic Hello World Print
 print('Hello Worlds')
@@ -44,3 +44,9 @@ def printTheValues():
 printTheValues()
 print(x)
 
+
+# Space Escape Sequence
+
+print('This is addition of space escape sequence  manually')
+y = 'This\tis\taddition\tof\tspac\tescape\tsequence\tvia\tslash\tt'
+print(y)
