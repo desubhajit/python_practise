@@ -17,3 +17,6 @@ c = 'Hello World'
 d = 'Lenovo Legion'
 print(a)
 print(a+b)
+print(c)
+print(c+d)
+print(str(a)+c)
