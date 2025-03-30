@@ -21,3 +21,18 @@ elif age>=30 and age<=45:
 
 else:
     print('You are senior citizen')
+
+
+
+# Nested If Else Statements
+
+age = 70
+is_member = True
+
+if age >= 18:
+   if is_member:
+       print('30% discount')
+   else:
+        print('10% discount')
+else:
+    print('No discount')
