@@ -36,3 +36,18 @@ if age >= 18:
         print('10% discount')
 else:
     print('No discount')
+
+
+# Match Case Statements
+
+number = 2
+
+match number:
+    case 1:
+        print('Number is 1')
+    case 2:
+        print('Number is 2')
+    case 3:
+        print('Number is 3')
+    case _:
+        print('Number is not in range')
